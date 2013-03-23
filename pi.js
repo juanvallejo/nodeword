@@ -2,7 +2,7 @@
 var port = process.env.OPENSHIFT_INTERNAL_PORT || 8080,ip = process.env.OPENSHIFT_INTERNAL_IP;
 var Pi = require('express').createServer(),io = require('socket.io');
 Pi.listen(port,ip,function() {
-	console.log("Piengine started in port "+port);
+	console.log("server started in port "+port);
 });
 var u = {
 	_ls:[],
