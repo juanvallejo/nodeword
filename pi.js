@@ -1,6 +1,6 @@
 #!/bin/env node
 var port = process.env.OPENSHIFT_INTERNAL_PORT || 8080,ip = process.env.OPENSHIFT_INTERNAL_IP;
-var Pi = require('express').createServer(),io = require('socket.io');
+var Pi = require('express').createServe(),io = require('socket.io');
 Pi.listen(port,ip,function() {
 	console.log("server started in port "+port);
 });
