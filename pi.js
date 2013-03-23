@@ -1,8 +1,8 @@
 #!/bin/env node
 var port = process.env.OPENSHIFT_INTERNAL_PORT || 8080,ip = process.env.OPENSHIFT_INTERNAL_IP;
-var express = require('express')(),Pi = require('http').createServer(express),io = require('socket.io');
+var Pi = require('express').startServer(),io = require('socket.io');
 Pi.listen(port,ip,function() {
-	console.log("Pi server started, listening on port "+port);
+	console.log("Piengine started in port "+port);
 });
 var u = {
 	_ls:[],
