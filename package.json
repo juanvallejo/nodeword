@@ -1,22 +1,23 @@
 {
-  "name": "Potatopi",
+  "name": "Pi",
   "version": "0.0.1",
-  "description": "OpenShift Sample Application",
+  "description": "Pi Server: Potatopi",
   "keywords": [
-    "OpenShift",
+    "Potatopi",
     "Node.js",
     "application",
-    "openshift"
+    "websocket",
+    "chat"
   ],
   "author": {
     "name": "OpenShift",
     "email": "ramr@example.org",
     "url":  "http://openshift.redhat.com/"
   },
-  "homepage": "http://potatopi-piengine.rhcloud.com/",
+  "homepage": "http://pi-piengine.rhcloud.com/",
   "repository": {
     "type": "git",
-    "url": "ssh://514611424382ecbd3d00002a@Potatopi-piengine.rhcloud.com/~/git/Potatopi.git/"
+    "url": "ssh://514cb1995973ca70230000d5@pi-piengine.rhcloud.com/~/git/pi.git/"
   },
 
   "engines": {
