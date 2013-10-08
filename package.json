@@ -12,7 +12,7 @@
   "author": {
     "name": "OpenShift",
     "email": "ramr@example.org",
-    "url":  "http://openshift.redhat.com/"
+    "url":  "http://juanjvallejo.com/"
   },
   "homepage": "http://pi-piengine.rhcloud.com/",
   "repository": {
@@ -33,5 +33,6 @@
   "devDependencies": {},
   "bundleDependencies": [],
 
-  "private": true
+  "private": true,
+  "main":"pi.js"
 }
