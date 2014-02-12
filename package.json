@@ -1,0 +1,38 @@
+{
+  "name": "Pi",
+  "version": "0.0.1",
+  "description": "Pi Server: Potatopi",
+  "keywords": [
+    "Potatopi",
+    "Node.js",
+    "application",
+    "websocket",
+    "chat"
+  ],
+  "author": {
+    "name": "OpenShift",
+    "email": "ramr@example.org",
+    "url":  "http://juanjvallejo.com/"
+  },
+  "homepage": "http://pi-piengine.rhcloud.com/",
+  "repository": {
+    "type": "git",
+    "url": "ssh://514cb1995973ca70230000d5@pi-piengine.rhcloud.com/~/git/pi.git/"
+  },
+
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": ">= 1.0.0"
+  },
+  "scripts": {  
+   "start": "node pi.js"
+  },
+  "dependencies": {
+    "socket.io":"*"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main":"pi.js"
+}
